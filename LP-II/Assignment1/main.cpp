@@ -72,12 +72,13 @@ void Graph::BFS(int v, queue<int> &q)
 
 int main()
 {
-    char f = 10;
     Graph g;
     g.addEdge(0, 1);
-    g.addEdge(1, 3);
+    g.addEdge(0, 2);
     g.addEdge(1, 2);
+    g.addEdge(1, 3);
     g.addEdge(2, 4);
+    g.addEdge(3, 4);
     cout << "Enter 1 for DFS and 2 for BFS: ";
     int choice;
     cin >> choice;
@@ -85,13 +86,13 @@ int main()
     {
     case 1:
     {
-        cout << "Following is Depth First Traversal: \n";
+        cout << "Depth First Traversal: \n";
         g.DFS(2);
         break;
     }
     case 2:
     {
-        cout << "Following is Breadth First Traversal: \n";
+        cout << "Breadth First Traversal: \n";
         queue<int> q;
         q.push(2);
         g.BFS(2, q);
@@ -100,6 +101,6 @@ int main()
     default:
         cout << "Invalid choice";
     }
-    cout << f;
+    cout << endl;
     return 0;
 }
