@@ -1,0 +1,64 @@
+{
+    "questions": [
+      {
+        "question": "What is your name?",
+        "answer": "Hi, I'm Cometbot"
+      },
+      {
+        "question": "Hello Cometbot",
+        "answer": "Hello there! How can I help you?"
+      },
+      {
+        "question": "Hello",
+        "answer": "Hello there! How can I help you?"
+      },
+      {
+        "question": "How are you?",
+        "answer": "I am doing great, thanks for asking."
+      },
+      {
+        "question": "What does InC stand for?",
+        "answer": "InC stands for Impetus and Concepts, PICT's annual technical festival."
+      },
+      {
+        "question": "Tell me about InC",
+        "answer": "Impetus and Concepts (InC) is a flagship technical event of SCTR's Pune Institute of Computer Technology (PICT), Pune , which will be held during the 1st week of April 2024. InC is an intercollegiate international level competition that has been catching the attention of corporate giants for the quality of projects and an opportunity to recruit/mentor young talented budding entrepreneurs."
+      },
+      {
+        "question": "What is Impetus?",
+        "answer": "Impetus is a Project Competition for FE to TE students, all engineering branches confined to specific domains."
+      },
+      {
+        "question": "What is Concepts?",
+        "answer": "Concepts is a Project Competition for Final Year Students, all engineering branches confined to specific domains."
+      },
+      {
+        "question": "Is there any other event under InC?",
+        "answer": "Yes, there is an event called as Pradnya as well. Do you wish to know more about it?"
+      },
+      {
+        "question": "What is Pradnya?",
+        "answer": "It is an International Competitive Coding contest for all the coding enthusiasts out there."
+      },
+      {
+        "question": "What are the domains for InC?",
+        "answer": "Students are invited with projects addressing the societal needs like Health, Agriculture, Kids/Women Safety, Education, etc."
+      },
+      {
+        "question": "What is the prize for Impetus?",
+        "answer": "The prize for Impetus is Rs. 1,00,000/-"
+      },
+      {
+        "question": "What are the entry fees for Impetus and Concepts?",
+        "answer": "Impetus - Rs. 100/- per team Concepts - Rs. 300/- per team"
+      },
+      {
+        "question": "What are the dates for InC?",
+        "answer": "The dates for InC are 5th, 6th and 7th April 2024."
+      },
+      {
+        "question": "Who are the sponsors for InC?",
+        "answer": "The sponsors for InC are UPTIQ, Bajaj Finserv, iMocha, eqTechnologic, AIRAVANA, etc."
+      }
+    ]
+  }
