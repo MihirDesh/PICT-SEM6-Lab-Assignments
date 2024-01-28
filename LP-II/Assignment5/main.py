@@ -19,7 +19,7 @@ class ChatBot:
     def find_best_match(self, user_question: str) -> str or None:
         """Finds closest match to user's question in knowledge base."""
         potential_matches = get_close_matches(
-            user_question, [q['question'] for q in self.knowledge_base['questions']], n=1, cutoff=0.6
+            user_question, [q['question'] for q in self.knowledge_base['questions']], n=1, cutoff=0.5
         )
         return potential_matches[0] if potential_matches else None
 
