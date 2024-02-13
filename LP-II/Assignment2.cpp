@@ -131,9 +131,15 @@ int main() {
     g.setHeuristic("Iasi", 226);
     g.setHeuristic("Neamt", 234);
 
-    g.aStar("Arad", "Bucharest");
-    cout << "Shortest path from Arad to Bucharest: ";
-    g.printPath("Arad", "Bucharest");
+    string start, goal;
+    cout << "Enter the starting city: ";
+    cin >> start;
+    cout << "Enter the destination city: ";
+    cin >> goal;
+
+    g.aStar(start, goal);
+    cout << "Shortest path from " << start << " to " << goal << ": ";
+    g.printPath(start, goal);
     cout << endl;
 
     return 0;
